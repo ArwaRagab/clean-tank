@@ -14,8 +14,8 @@
     <header class="fixed w-full z-50 bg-white backdrop-blur-lg border-b border-gray-100">
         <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
             <div class="flex items-center gap-3">
-                <div class="w-12 h-12 bg-gradient-to-tr from-blue-600 to-cyan-400 rounded-xl flex items-center justify-center text-white shadow-lg shadow-blue-200">
-                    <span class="text-2xl font-bold">ك</span>
+                <div class="w-16 h-16 rounded-2xl flex items-center justify-center shadow-lg shadow-blue-200">
+                    <img src="./images/clean tank logo JPG.jpg.jpeg" class=" rounded-2xl">
                 </div>
                 <div class="flex flex-col text-right">
                     <span class="text-xl font-extrabold text-blue-900 leading-none">كلين تانك</span>
@@ -23,12 +23,12 @@
                 </div>
             </div>
             <ul class="nav-links hidden lg:flex items-center gap-8 text-gray-600 font-semibold">
-                <li><a href="#home" class="hover:text-blue-600 transition duration-300 text-blue-600">الرئيسية</a></li>
-                <li><a href="#about" class="hover:text-blue-600 transition duration-300">من نحن</a></li>
-                <li><a href="#services" class="hover:text-blue-600 transition duration-300">خدماتنا</a></li>
-                <li><a href="#why-us" class="hover:text-blue-600 transition duration-300">لماذا تختارنا</a></li>
-                <li><a href="#" class="hover:text-blue-600 transition duration-300">المدونة</a></li>
-                <li><a href="#contact" class="hover:text-blue-600 transition duration-300">تواصل معنا</a></li>
+                <li><a href="#home" class="text-blue-900 hover:text-blue-600 transition duration-300">الرئيسية</a></li>
+                <li><a href="#about" class="text-blue-900 hover:text-blue-600 transition duration-300">من نحن</a></li>
+                <li><a href="#services" class="text-blue-900 hover:text-blue-600 transition duration-300">خدماتنا</a></li>
+                <li><a href="#why-us" class="text-blue-900 hover:text-blue-600 transition duration-300">لماذا تختارنا</a></li>
+                <li><a href="blogs.html" target="_self" class="text-blue-900 hover:text-blue-600 transition duration-300">المدونة</a></li>
+                <li><a href="#contact" class="text-blue-900 hover:text-blue-600 transition duration-300">تواصل معنا</a></li>
             </ul>
             <button class="hidden lg:block bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-full font-bold transition-all transform hover:scale-105 shadow-md">
                 إحجز خدمتك الآن
@@ -43,7 +43,7 @@
                 <li><a href="#about" class="mobile-link block py-2 hover:text-blue-600 transition-colors">من نحن</a></li>
                 <li><a href="#services" class="mobile-link block py-2 hover:text-blue-600 transition-colors">خدماتنا</a></li>
                 <li><a href="#why-us" class="mobile-link block py-2 hover:text-blue-600 transition-colors">لماذا تختارنا</a></li>
-                <li><a href="#" class="mobile-link block py-2 hover:text-blue-600 transition-colors">المدونة</a></li>
+                <li><a href="blogs.html" target="_self" class="mobile-link block py-2 hover:text-blue-600 transition-colors">المدونة</a></li>
                 <li><a href="#contact" class="mobile-link block py-2 hover:text-blue-600 transition-colors">تواصل معنا</a></li>
                 <li class="pt-4 border-t border-gray-50">
                     <button class="w-full bg-blue-600 text-white py-4 rounded-full font-bold shadow-lg">إحجز خدمتك الآن</button>
@@ -54,11 +54,11 @@
     <!-- landing -->
     <section id="home" class="relative h-screen flex items-center parallax-hero overflow-hidden">
         <div class="container mx-auto px-6 relative z-10 flex flex-col md:flex-row items-center gap-16 mt-12">
-            <div class="w-full md:w-3/5 text-white text-right space-y-6">
+            <div class="w-full md:w-3/5 text-white text-right pt-8 space-y-6">
                 <div class="inline-block bg-cyan-500/20 py-1 px-4 rounded-full border border-cyan-400/30 text-cyan-300 font-bold text-sm mb-2">
                     الخيار الأول لخدمات العزل في الرياض
                 </div>
-                <h1 class="text-5xl md:text-7xl font-extrabold leading-[1.2]">بمعايير عالمية
+                <h1 class="text-4xl md:text-6xl font-extrabold leading-[1.2]">بمعايير عالمية
                     نعتني بـ <span class="text-cyan-400">خزاناتكم</span> <br>
                     بمعايير عالمية
                 </h1>
@@ -66,7 +66,7 @@
                     في <strong>كلين تانك</strong>، نقدم حلولاً متكاملة لتنظيف وعزل المسابح وخزانات المياه بأحدث التقنيات الألمانية، لنضمن لك ولعائلتك مياهًا نقية وبيئة صحية آمنة.
                 </p>
                 <div class="flex flex-wrap gap-5 pt-4">
-                    <a href="#" class="bg-white text-blue-900 px-10 py-4 rounded-xl font-bold text-lg hover:bg-cyan-100 transition-colors shadow-xl">
+                    <a href="#services" class="bg-white text-blue-900 px-10 py-4 rounded-xl font-bold text-lg hover:bg-cyan-100 transition-colors shadow-xl">
                         اكتشف خدماتنا
                     </a>
                     <a href="#" class="bg-transparent border-2 border-white/30 backdrop-blur-sm px-10 py-4 rounded-xl font-bold text-lg hover:bg-white/10 transition-all flex items-center gap-3">
@@ -78,7 +78,7 @@
         </div>
     </section>
     <!-- شرح لبعض الخدمات -->
-    <section class="py-24 bg-gray-100">
+    <!-- <section class="py-24 bg-gray-100">
         <div class="container mx-auto px-6">
             <div class="grid grid-cols-1 xl:grid-cols-2 gap-10">
                 <div class="relative min-h-[500px] flex flex-row rounded-[2.5rem] overflow-hidden shadow-2xl group border border-white">
@@ -114,7 +114,7 @@
                     </div>
                 </div>
                 <div class="relative min-h-[500px] flex flex-row rounded-[2.5rem] overflow-hidden shadow-2xl group border border-white">
-                    <img src="./images/sterilizing-the-safes.webp" 
+                    <img src="./images/Artboard 5.png" 
                         class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="تعقيم خزانات">
                     <div class="relative w-full flex flex-row-reverse">
                         <div class="hidden md:block w-2/5"></div>
@@ -147,7 +147,60 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
+    <section class="py-20 bg-white">
+    <div class="container mx-auto px-6">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            
+            <div class="relative group overflow-hidden rounded-[2.5rem] h-[500px] shadow-2xl" data-aos="zoom-in">
+                <img src="./images/Artboard 1.png" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="تنظيف خزانات">
+                
+                <div class="absolute inset-0 bg-blue-900/20  flex flex-col justify-end p-8 md:p-12 transition-all duration-500 group-hover:bg-blue-900/40">
+                    <div class="bg-white/10 backdrop-blur-xl border border-white/20 p-8 rounded-[2rem] text-white">
+                        <div class="flex items-center gap-4 mb-4">
+                            <span class="w-1 h-8 bg-cyan-400 rounded-full"></span>
+                            <h3 class="text-3xl font-black">تنظيف خزانات الميااه بالرياض</h3>
+                        </div>
+                        <p class="text-white/80 text-sm leading-relaxed mb-6">
+                            نقدم في <span class="text-cyan-300 font-bold">كلين تانك</span> خدمة شاملة تشمل إزالة الرواسب الطينية، معالجة الجدران بمواد تمنع الفطريات، وضمان مياه نقية تماماً.
+                        </p>
+                        <ul class="space-y-3 mb-8">
+                            <li class="flex items-center gap-2 text-sm"><span class="text-cyan-400">✓</span> إزالة كاملة للمخلفات والترسبات</li>
+                            <li class="flex items-center gap-2 text-sm"><span class="text-cyan-400">✓</span> غسيل الجدران بماكينات الضغط</li>
+                        </ul>
+                        <button class="w-12 h-12 bg-cyan-500 rounded-full flex items-center justify-center hover:bg-cyan-400 transition-all self-end">
+                            <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="relative group overflow-hidden rounded-[2.5rem] h-[500px] shadow-2xl" data-aos="zoom-in" data-aos-delay="200">
+                <img src="./images/Artboard 5.png" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="تعقيم خزانات">
+                
+                <div class="absolute inset-0 bg-slate-900/20  flex flex-col justify-end p-8 md:p-12 transition-all duration-500 group-hover:bg-slate-900/40">
+                    <div class="bg-white/10 backdrop-blur-xl border border-white/20 p-8 rounded-[2rem] text-white">
+                        <div class="flex items-center gap-4 mb-4">
+                            <span class="w-1 h-8 bg-blue-400 rounded-full"></span>
+                            <h3 class="text-3xl font-black">تعقيم الخزانات بأحدث المواد</h3>
+                        </div>
+                        <p class="text-white/80 text-sm leading-relaxed mb-6">
+                            التعقيم هو الخطوة الأهم لضمان خلو المياه من البكتيريا. نستخدم مواد معتمدة من هيئة الغذاء والدواء السعودية، آمنة تماماً ولا تترك طعماً.
+                        </p>
+                        <ul class="space-y-3 mb-8">
+                            <li class="flex items-center gap-2 text-sm"><span class="text-blue-400">✓</span> مواد تعقيم طويلة الأمد</li>
+                            <li class="flex items-center gap-2 text-sm"><span class="text-blue-400">✓</span> حماية قصوى لسلامة أسرتك</li>
+                        </ul>
+                        <button class="w-12 h-12 bg-blue-500 rounded-full flex items-center justify-center hover:bg-blue-400 transition-all self-end">
+                            <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
     <!-- about -->
     <section id="about" class="py-24 bg-white overflow-hidden">
         <div class="container mx-auto px-6">
@@ -327,14 +380,20 @@
                         <p class="text-gray-600 mb-6 leading-relaxed group-hover:text-blue-100 transition-colors">
                             نطبق عوازل "إيبوكسي" وأسمنتية معتمدة تمنع تسرب المياه للخارج أو دخول الملوثات للداخل، مما يحمي هيكل المبنى من التآكل والرطوبة.
                         </p>
-                        <ul class="space-y-3 mb-8 text-sm font-medium group-hover:text-cyan-200">
+                        <ul class="space-y-3 mb-8 text-sm text-blue-900 font-medium group-hover:text-cyan-200">
                             <li class="flex items-center gap-2"><span><i class="fa-solid fa-star"></i></span> عزل خزانات أرضية وعلوية</li>
                             <li class="flex items-center gap-2"><span><i class="fa-solid fa-star"></i></span> مواد ألمانية صديقة للبيئة</li>
                             <li class="flex items-center gap-2"><span><i class="fa-solid fa-star"></i></span> ضمان يصل إلى 10 سنوات</li>
                         </ul>
-                        <a href="#" class="inline-flex items-center gap-2 text-cyan-600 font-bold group-hover:text-white">
-                            إقرأ المزيد <span class="group-hover:translate-x-[-5px] transition-transform">←</span>
-                        </a>
+                        <div class="flex gap-12">
+                            <a href="#" class="inline-flex items-center gap-2 text-cyan-600 font-bold group-hover:text-white">
+                                إقرأ المزيد <i class="fa-solid fa-left-long"></i>
+                            </a>
+                            <a href="#" class="inline-flex items-center gap-2 text-cyan-600 font-bold group-hover:text-white">
+                                اتصل بنا الآن
+                                <i class="fa-solid fa-left-long"></i>
+                            </a>
+                        </div>
                     </div>
                 </div>
                 <div class="group relative bg-slate-50 rounded-[2.5rem] p-6 transition-all duration-500 hover:bg-blue-900 hover:-translate-y-2 shadow-sm hover:shadow-2xl">
@@ -347,14 +406,20 @@
                         <p class="text-gray-600 mb-6 leading-relaxed group-hover:text-blue-100 transition-colors">
                             إزالة الرواسب والريم والطحالب باستخدام ضغط المياه العالي، مع تعقيم كيميائي دقيق يقتل 99% من البكتيريا المسببة للأمراض.
                         </p>
-                        <ul class="space-y-3 mb-8 text-sm font-medium group-hover:text-cyan-200">
+                        <ul class="space-y-3 mb-8 text-sm text-blue-900 font-medium group-hover:text-cyan-200">
                             <li class="flex items-center gap-2"><span><i class="fa-solid fa-star"></i></span> غسيل بمواد معقمة معتمدة</li>
                             <li class="flex items-center gap-2"><span><i class="fa-solid fa-star"></i></span> التخلص من الروائح الكريهة</li>
                             <li class="flex items-center gap-2"><span><i class="fa-solid fa-star"></i></span> فحص دوري مجدول</li>
                         </ul>
-                        <a href="#" class="inline-flex items-center gap-2 text-cyan-600 font-bold group-hover:text-white">
-                            إقرأ المزيد <span class="group-hover:translate-x-[-5px] transition-transform">←</span>
-                        </a>
+                        <div class="flex gap-12">
+                            <a href="#" class="inline-flex items-center gap-2 text-cyan-600 font-bold group-hover:text-white">
+                                إقرأ المزيد <i class="fa-solid fa-left-long"></i>
+                            </a>
+                            <a href="#" class="inline-flex items-center gap-2 text-cyan-600 font-bold group-hover:text-white">
+                                اتصل بنا الآن
+                                <i class="fa-solid fa-left-long"></i>
+                            </a>
+                        </div>
                     </div>
                 </div>
                 <div class="group relative bg-slate-50 rounded-[2.5rem] p-6 transition-all duration-500 hover:bg-blue-900 hover:-translate-y-2 shadow-sm hover:shadow-2xl">
@@ -367,14 +432,72 @@
                         <p class="text-gray-600 mb-6 leading-relaxed group-hover:text-blue-100 transition-colors">
                             أجهزة "إلكترومغناطيسية" متطورة تحدد مكان التسريب بدقة مليمترية دون الحاجة لتكسير الجدران أو الأرضيات بشكل عشوائي.
                         </p>
-                        <ul class="space-y-3 mb-8 text-sm font-medium group-hover:text-cyan-200">
+                        <ul class="space-y-3 mb-8 text-sm text-blue-900 font-medium group-hover:text-cyan-200">
                             <li class="flex items-center gap-2"><span><i class="fa-solid fa-star"></i></span> كشف بدون تخريب نهائياً</li>
                             <li class="flex items-center gap-2"><span><i class="fa-solid fa-star"></i></span> تقارير معتمدة لشركة المياه</li>
                             <li class="flex items-center gap-2"><span><i class="fa-solid fa-star"></i></span> توفير فاتورة المياه المرتفعة</li>
                         </ul>
-                        <a href="#" class="inline-flex items-center gap-2 text-cyan-600 font-bold group-hover:text-white">
-                            إقرأ المزيد <span class="group-hover:translate-x-[-5px] transition-transform">←</span>
-                        </a>
+                        <div class="flex gap-12">
+                            <a href="#" class="inline-flex items-center gap-2 text-cyan-600 font-bold group-hover:text-white">
+                                إقرأ المزيد <i class="fa-solid fa-left-long"></i>
+                            </a>
+                            <a href="#" class="inline-flex items-center gap-2 text-cyan-600 font-bold group-hover:text-white">
+                                اتصل بنا الآن
+                                <i class="fa-solid fa-left-long"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="group relative bg-slate-50 rounded-[2.5rem] p-6 transition-all duration-500 hover:bg-blue-900 hover:-translate-y-2 shadow-sm hover:shadow-2xl">
+                    <div class=" w-112 h-80 relative rounded-[2.5rem] flex items-center justify-center shadow-sm mb-8 ">
+                        <img src="./images/Artboard 4.png" 
+                        class="absolute top-0 inset-0 rounded-[2.5rem] w-full h-full object-cover " alt="تنظيف خزانات">
+                    </div>
+                    <div>
+                        <h3 class="text-2xl font-bold text-blue-900 mb-4 group-hover:text-white transition-colors">صيانة وترميم المسابح</h3>
+                        <p class="text-gray-600 mb-6 leading-relaxed group-hover:text-blue-100 transition-colors">
+                            تغيير الفلاتر، إصلاح المضخات، وتجديد السيراميك التالف. نجعل مسبحك يعود كالجديد تماماً مع ضبط توازن الكلور والحموضة.
+                        </p>
+                        <ul class="space-y-3 mb-8 text-sm text-blue-900 font-medium group-hover:text-cyan-200">
+                            <li class="flex items-center gap-2"><span><i class="fa-solid fa-star"></i></span> تنظيف الفلاتر والمضخات</li>
+                            <li class="flex items-center gap-2"><span><i class="fa-solid fa-star"></i></span> صيانة الإضاءة والمحابس</li>
+                            <li class="flex items-center gap-2"><span><i class="fa-solid fa-star"></i></span> كنس وتعقيم مياه المسابح</li>
+                        </ul>
+                        <div class="flex gap-12">
+                            <a href="#" class="inline-flex items-center gap-2 text-cyan-600 font-bold group-hover:text-white">
+                                إقرأ المزيد <i class="fa-solid fa-left-long"></i>
+                            </a>
+                            <a href="#" class="inline-flex items-center gap-2 text-cyan-600 font-bold group-hover:text-white">
+                                اتصل بنا الآن
+                                <i class="fa-solid fa-left-long"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="group relative bg-slate-50 rounded-[2.5rem] p-6 transition-all duration-500 hover:bg-blue-900 hover:-translate-y-2 shadow-sm hover:shadow-2xl">
+                    <div class=" w-112 h-80 relative rounded-[2.5rem] flex items-center justify-center shadow-sm mb-8 ">
+                        <img src="./images/Artboard 5.png" 
+                        class="absolute top-0 inset-0 rounded-[2.5rem] w-full h-full object-cover " alt="تنظيف خزانات">
+                    </div>
+                    <div>
+                        <h3 class="text-2xl font-bold text-blue-900 mb-4 group-hover:text-white transition-colors">صيانة وترميم المسابح</h3>
+                        <p class="text-gray-600 mb-6 leading-relaxed group-hover:text-blue-100 transition-colors">
+                            تغيير الفلاتر، إصلاح المضخات، وتجديد السيراميك التالف. نجعل مسبحك يعود كالجديد تماماً مع ضبط توازن الكلور والحموضة.
+                        </p>
+                        <ul class="space-y-3 mb-8 text-sm text-blue-900 font-medium group-hover:text-cyan-200">
+                            <li class="flex items-center gap-2"><span><i class="fa-solid fa-star"></i></span> تنظيف الفلاتر والمضخات</li>
+                            <li class="flex items-center gap-2"><span><i class="fa-solid fa-star"></i></span> صيانة الإضاءة والمحابس</li>
+                            <li class="flex items-center gap-2"><span><i class="fa-solid fa-star"></i></span> كنس وتعقيم مياه المسابح</li>
+                        </ul>
+                        <div class="flex gap-12">
+                            <a href="#" class="inline-flex items-center gap-2 text-cyan-600 font-bold group-hover:text-white">
+                                إقرأ المزيد <i class="fa-solid fa-left-long"></i>
+                            </a>
+                            <a href="#" class="inline-flex items-center gap-2 text-cyan-600 font-bold group-hover:text-white">
+                                اتصل بنا الآن
+                                <i class="fa-solid fa-left-long"></i>
+                            </a>
+                        </div>
                     </div>
                 </div>
                 <div class="group relative bg-slate-50 rounded-[2.5rem] p-6 transition-all duration-500 hover:bg-blue-900 hover:-translate-y-2 shadow-sm hover:shadow-2xl">
@@ -387,68 +510,35 @@
                         <p class="text-gray-600 mb-6 leading-relaxed group-hover:text-blue-100 transition-colors">
                             تغيير الفلاتر، إصلاح المضخات، وتجديد السيراميك التالف. نجعل مسبحك يعود كالجديد تماماً مع ضبط توازن الكلور والحموضة.
                         </p>
-                        <ul class="space-y-3 mb-8 text-sm font-medium group-hover:text-cyan-200">
+                        <ul class="space-y-3 mb-8 text-sm text-blue-900 font-medium group-hover:text-cyan-200">
                             <li class="flex items-center gap-2"><span><i class="fa-solid fa-star"></i></span> تنظيف الفلاتر والمضخات</li>
                             <li class="flex items-center gap-2"><span><i class="fa-solid fa-star"></i></span> صيانة الإضاءة والمحابس</li>
                             <li class="flex items-center gap-2"><span><i class="fa-solid fa-star"></i></span> كنس وتعقيم مياه المسابح</li>
                         </ul>
-                        <a href="#" class="inline-flex items-center gap-2 text-cyan-600 font-bold group-hover:text-white">
-                            إقرأ المزيد <span class="group-hover:translate-x-[-5px] transition-transform">←</span>
-                        </a>
+                        <div class="flex gap-12">
+                            <a href="#" class="inline-flex items-center gap-2 text-cyan-600 font-bold group-hover:text-white">
+                                إقرأ المزيد <i class="fa-solid fa-left-long"></i>
+                            </a>
+                            <a href="#" class="inline-flex items-center gap-2 text-cyan-600 font-bold group-hover:text-white">
+                                اتصل بنا الآن
+                                <i class="fa-solid fa-left-long"></i>
+                            </a>
+                        </div>
                     </div>
                 </div>
-                <div class="group relative bg-slate-50 rounded-[2.5rem] p-6 transition-all duration-500 hover:bg-blue-900 hover:-translate-y-2 shadow-sm hover:shadow-2xl">
-                    <div class=" w-112 h-80 relative rounded-[2.5rem] flex items-center justify-center shadow-sm mb-8 ">
-                        <img src="./images/Artboard 1.png" 
-                        class="absolute top-0 inset-0 rounded-[2.5rem] w-full h-full object-cover " alt="تنظيف خزانات">
-                    </div>
-                    <div>
-                        <h3 class="text-2xl font-bold text-blue-900 mb-4 group-hover:text-white transition-colors">صيانة وترميم المسابح</h3>
-                        <p class="text-gray-600 mb-6 leading-relaxed group-hover:text-blue-100 transition-colors">
-                            تغيير الفلاتر، إصلاح المضخات، وتجديد السيراميك التالف. نجعل مسبحك يعود كالجديد تماماً مع ضبط توازن الكلور والحموضة.
-                        </p>
-                        <ul class="space-y-3 mb-8 text-sm font-medium group-hover:text-cyan-200">
-                            <li class="flex items-center gap-2"><span><i class="fa-solid fa-star"></i></span> تنظيف الفلاتر والمضخات</li>
-                            <li class="flex items-center gap-2"><span><i class="fa-solid fa-star"></i></span> صيانة الإضاءة والمحابس</li>
-                            <li class="flex items-center gap-2"><span><i class="fa-solid fa-star"></i></span> كنس وتعقيم مياه المسابح</li>
-                        </ul>
-                        <a href="#" class="inline-flex items-center gap-2 text-cyan-600 font-bold group-hover:text-white">
-                            إقرأ المزيد <span class="group-hover:translate-x-[-5px] transition-transform">←</span>
-                        </a>
-                    </div>
+                
+            </div>
+            <div class="lg:col-span-2 relative mt-12 bg-gradient-to-r from-cyan-500 to-blue-600 rounded-[2.5rem] p-8 md:p-12 overflow-hidden flex flex-col md:flex-row items-center gap-8 shadow-xl">
+                <div class="absolute top-0 right-0 w-64 h-64 bg-white/10 rounded-full -mr-20 -mt-20 blur-3xl"></div>
+                <div class="relative z-10 md:w-2/3">
+                    <h3 class="text-3xl font-black text-white mb-4">هل تعاني من ارتفاع فاتورة المياه؟</h3>
+                    <p class="text-blue-50 text-lg mb-6">احجز الآن فحصاً مجانياً لخزانات منزلك عند طلب خدمة التنظيف والتعقيم الشاملة.</p>
+                    <button class="bg-white text-blue-900 px-8 py-4 rounded-2xl font-black hover:bg-blue-50 transition-colors shadow-lg shadow-blue-900/20">
+                        اطلب الفحص المجاني
+                    </button>
                 </div>
-                <div class="group relative bg-slate-50 rounded-[2.5rem] p-6 transition-all duration-500 hover:bg-blue-900 hover:-translate-y-2 shadow-sm hover:shadow-2xl">
-                    <div class=" w-112 h-80 relative rounded-[2.5rem] flex items-center justify-center shadow-sm mb-8 ">
-                        <img src="./images/Artboard 1.png" 
-                        class="absolute top-0 inset-0 rounded-[2.5rem] w-full h-full object-cover " alt="تنظيف خزانات">
-                    </div>
-                    <div>
-                        <h3 class="text-2xl font-bold text-blue-900 mb-4 group-hover:text-white transition-colors">صيانة وترميم المسابح</h3>
-                        <p class="text-gray-600 mb-6 leading-relaxed group-hover:text-blue-100 transition-colors">
-                            تغيير الفلاتر، إصلاح المضخات، وتجديد السيراميك التالف. نجعل مسبحك يعود كالجديد تماماً مع ضبط توازن الكلور والحموضة.
-                        </p>
-                        <ul class="space-y-3 mb-8 text-sm font-medium group-hover:text-cyan-200">
-                            <li class="flex items-center gap-2"><span><i class="fa-solid fa-star"></i></span> تنظيف الفلاتر والمضخات</li>
-                            <li class="flex items-center gap-2"><span><i class="fa-solid fa-star"></i></span> صيانة الإضاءة والمحابس</li>
-                            <li class="flex items-center gap-2"><span><i class="fa-solid fa-star"></i></span> كنس وتعقيم مياه المسابح</li>
-                        </ul>
-                        <a href="#" class="inline-flex items-center gap-2 text-cyan-600 font-bold group-hover:text-white">
-                            إقرأ المزيد <span class="group-hover:translate-x-[-5px] transition-transform">←</span>
-                        </a>
-                    </div>
-                </div>
-                <div class="lg:col-span-2 relative m-auto bg-gradient-to-r from-cyan-500 to-blue-600 rounded-[2.5rem] p-8 md:p-12 overflow-hidden flex flex-col md:flex-row items-center gap-8 shadow-xl">
-                    <div class="absolute top-0 right-0 w-64 h-64 bg-white/10 rounded-full -mr-20 -mt-20 blur-3xl"></div>
-                    <div class="relative z-10 md:w-2/3">
-                        <h3 class="text-3xl font-black text-white mb-4">هل تعاني من ارتفاع فاتورة المياه؟</h3>
-                        <p class="text-blue-50 text-lg mb-6">احجز الآن فحصاً مجانياً لخزانات منزلك عند طلب خدمة التنظيف والتعقيم الشاملة.</p>
-                        <button class="bg-white text-blue-900 px-8 py-4 rounded-2xl font-black hover:bg-blue-50 transition-colors shadow-lg shadow-blue-900/20">
-                            اطلب الفحص المجاني
-                        </button>
-                    </div>
-                    <div class="relative z-10 md:w-1/3 text-6xl md:text-8xl flex justify-center">
-                        <i class="fa-solid fa-droplet text-cyan-200 "></i>
-                    </div>
+                <div class="relative z-10 md:w-1/3 text-6xl md:text-8xl flex justify-center">
+                    <i class="fa-solid fa-droplet text-cyan-200 "></i>
                 </div>
             </div>
         </div>
@@ -616,7 +706,7 @@
                         </div>
                         <div class="col-span-2 relative mt-4">
                             <div class="absolute inset-0 bg-cyan-500 rounded-[3rem] rotate-3 opacity-20"></div>
-                            <img src="https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=800&q=80" 
+                            <img src="./images/Artboard 1.png" 
                                 alt="فريق العمل" 
                                 class="relative z-10 rounded-[3rem] w-full h-[350px] object-cover shadow-2xl border-4 border-white/10">
                             <div class="absolute -bottom-6 -right-6 bg-cyan-500 text-white p-6 rounded-full w-32 h-32 flex flex-col items-center justify-center shadow-2xl animate-bounce-slow border-4 border-slate-900">
@@ -833,8 +923,8 @@
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
                 <div class="space-y-6">
                     <div class="flex items-center gap-3">
-                        <div class="w-12 h-12 bg-gradient-to-tr from-blue-600 to-cyan-400 rounded-xl flex items-center justify-center text-white shadow-md shadow-cyan-500">
-                            <span class="text-2xl font-bold">ك</span>
+                        <div class="w-16 h-16 rounded-2xl flex items-center justify-center ">
+                            <img src="./images/clean tank logo JPG.jpg.jpeg" class=" rounded-2xl">
                         </div>
                         <div class="flex flex-col">
                             <h3 class="text-2xl font-black tracking-tight">كلين <span class="text-cyan-500">تانك</span></h3>
@@ -926,7 +1016,7 @@
             </div>
         </div>
     </footer>
-    <script src="./index.js"></script>
+    <script src="./js-codes/index.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script> AOS.init({ duration: 1000, once: false }); </script>
 </body>
