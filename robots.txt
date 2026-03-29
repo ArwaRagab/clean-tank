@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+
+# منع صفحات غير مهمة (اختياري)
+Disallow: /admin/
+Disallow: /login/
+Disallow: /dashboard/
+
+# ربط السايت ماب
+Sitemap: https://cleantank-ksa.com/sitemap.xml
