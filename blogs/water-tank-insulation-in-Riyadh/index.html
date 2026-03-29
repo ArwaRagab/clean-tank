@@ -26,28 +26,60 @@
         "@graph": [
             {
             "@type": "LocalBusiness",
+            "@id": "https://cleantank-ksa.com/#organization",
             "name": "كلين تانك",
             "image": "https://cleantank-ksa.com/images/clean tank logo JPG.jpg.jpeg",
             "url": "https://cleantank-ksa.com",
-            "telephone": "0592425757",
+            "telephone": "+966592425757",
             "address": {
                 "@type": "PostalAddress",
                 "addressLocality": "الرياض",
                 "addressCountry": "SA"
-            }
             },
             {
             "@type": "Service",
             "name": "عزل خزانات المياه",
             "description": "خدمة عزل خزانات المياه بالرياض تشمل العزل المائي والحراري باستخدام مواد آمنة ومعتمدة لضمان حماية الخزانات من التسربات والتلوث.",
-            "provider": {
-                "@type": "LocalBusiness",
-                "name": "كلين تانك"
-            },
+            "provider": { "@id": "https://cleantank-ksa.com/#organization" },
             "areaServed": {
-                "@type": "Place",
+                "@type": "City",
                 "name": "الرياض"
+            }    
+            },
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.9",
+                "reviewCount": "125"
             }
+            },
+            {
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                "@type": "Question",
+                "name": "ما هي أفضل مواد عزل خزانات المياه؟",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "نحن نستخدم مواد عزل معتمدة وآمنة تماماً مثل مادة الإيبوكسي (Epoxy) والسي آي سي (CIC) التي تضمن حماية تامة ضد التسربات والتلوث."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "هل تقدمون ضماناً على خدمات عزل الخزانات؟",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "نعم، تقدم شركة كلين تانك ضماناً يصل إلى 10 سنوات على كافة أعمال عزل الخزانات المائية والحرارية بالرياض."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "كم تستغرق عملية تنظيف وعزل الخزان؟",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "تستغرق العملية عادة ما بين 4 إلى 8 ساعات حسب حالة الخزان وحجمه، لضمان جفاف المواد المستخدمة وجودة التنفيذ."
+                }
+                }
+            ]
             }
         ]
         }
@@ -559,16 +591,16 @@
                 <h2 class="text-2xl font-bold text-slate-900 mb-10 border-r-4 border-blue-600 pr-4">أسئلة تشغل بال عملاء الرياض: إجابات شفافة من كلين تانك</h2>
                 <div class="grid grid-cols-1 gap-4">
                     <div class="p-6 border border-slate-100 rounded-2xl hover:border-blue-200 transition-all">
-                        <h3 class="font-bold text-slate-800 mb-3">كم تستغرق عملية عزل الخزان الواحد؟</h3>
-                        <p class="text-slate-600 text-sm leading-loose">مدة الخدمة تتراوح بين 4 إلى 8 ساعات حسب حجم الخزان ونوع العزل المطلوب. يتم التنفيذ على مراحل تشمل التنظيف، التطبيق، ووقت الجفاف.</p>
+                        <h3 class="font-bold text-slate-800 mb-3">ما هي أفضل مواد عزل خزانات المياه؟</h3>
+                        <p class="text-slate-600 text-sm leading-loose">نحن نستخدم مواد عزل معتمدة وآمنة تماماً مثل مادة الإيبوكسي (Epoxy) والسي آي سي (CIC) التي تضمن حماية تامة ضد التسربات والتلوث.</p>
                     </div>
                     <div class="p-6 border border-slate-100 rounded-2xl hover:border-blue-200 transition-all">
-                        <h3 class="font-bold text-slate-800 mb-3">هل مواد العزل آمنة على صحة الإنسان؟</h3>
-                        <p class="text-slate-600 text-sm leading-loose">نعم، جميع المواد التي نستخدمها معتمدة من هيئة المواصفات السعودية وهيئة الغذاء والدواء، وخالية من أي مواد سامة، وآمنة تمامًا لمياه الشرب بعد الجفاف التام.</p>
+                        <h3 class="font-bold text-slate-800 mb-3">هل تقدمون ضماناً على خدمات عزل الخزانات؟</h3>
+                        <p class="text-slate-600 text-sm leading-loose">نعم، تقدم شركة كلين تانك ضماناً يصل إلى 10 سنوات على كافة أعمال عزل الخزانات المائية والحرارية بالرياض.</p>
                     </div>
                     <div class="p-6 border border-slate-100 rounded-2xl hover:border-blue-200 transition-all">
-                        <h3 class="font-bold text-slate-800 mb-3">هل تقدمون ضمانًا على خدمة العزل؟</h3>
-                        <p class="text-slate-600 text-sm leading-loose">نقدم ضمانًا كتابيًا يصل إلى 10 سنوات على المواد والتنفيذ حسب نوع العزل. في حال ظهور أي مشكلة خلال فترة الضمان، نلتزم بإصلاحها دون أي تكلفة إضافية.</p>
+                        <h3 class="font-bold text-slate-800 mb-3">كم تستغرق عملية تنظيف وعزل الخزان؟</h3>
+                        <p class="text-slate-600 text-sm leading-loose">تستغرق العملية عادة ما بين 4 إلى 8 ساعات حسب حالة الخزان وحجمه، لضمان جفاف المواد المستخدمة وجودة التنفيذ.</p>
                     </div>
                 </div>
             </section>
