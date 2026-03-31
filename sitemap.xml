@@ -1,7 +1,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <!--  created with Free Online Sitemap Generator www.xml-sitemaps.com  -->
 <url>
+<loc>https://cleantank-ksa.com/</loc>
+<lastmod>2026-03-26T14:10:34+00:00</lastmod>
+<priority>1.00</priority>
+</url>
+<url>
 <loc>https://cleantank-ksa.com/blogs/</loc>
+<lastmod>2026-03-26T14:10:34+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://cleantank-ksa.com/blogs/best-tank-insulation-materials-riyadh/</loc>
 <lastmod>2026-03-26T14:10:34+00:00</lastmod>
 <priority>0.80</priority>
 </url>
@@ -11,12 +21,12 @@
 <priority>0.80</priority>
 </url>
 <url>
-<loc>https://cleantank-ksa.com/</loc>
+<loc>https://cleantank-ksa.com/cleaning-and-disinfecting-water-tanks-in-riyadh/</loc>
 <lastmod>2026-03-26T14:10:34+00:00</lastmod>
-<priority>1.00</priority>
+<priority>0.80</priority>
 </url>
 <url>
-<loc>https://cleantank-ksa.com/cleaning-and-disinfecting-water-tanks-in-riyadh/</loc>
+<loc>https://cleantank-ksa.com/water-leak-detection-in-riyadh/</loc>
 <lastmod>2026-03-26T14:10:34+00:00</lastmod>
 <priority>0.80</priority>
 </url>
