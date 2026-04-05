@@ -132,10 +132,10 @@
         }
     </script>
     <link href="/assets/css/tank-insulation.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="/assets/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="/style.css" rel="stylesheet">
 </head>
 <body class="bg-gray-50">
     <header class="fixed w-full z-50 bg-white backdrop-blur-lg border-b border-gray-100">
@@ -409,49 +409,154 @@
         </div>
     </div>
     </section>
-    <!-- المقالات المقترحة (كما هي في التصميم الأصلي) -->
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 mb-20 px-3">
-        <article class="flex flex-col group">
-            <div class="relative h-64 rounded-3xl overflow-hidden mb-6">
-                <img src="https://images.unsplash.com/photo-1584622650111-993a426fbf0a" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" alt="صيانة خزانات">
-                <div class="absolute top-4 right-4 bg-white/90 backdrop-blur px-3 py-1 rounded-xl text-xs font-bold text-slate-900">نصائح</div>
+    <!-- مقالات وخدمات قد تهمك -->
+    <section class="bg-gray-50 py-16 px-4">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold text-blue-900 mb-4">مقالات وخدمات قد تهمك</h2>
+                <p class="text-blue-600 text-lg">اكتشف المزيد من النصائح والخدمات من خلال المقالات التالية</p>
             </div>
-            <div>
-                <h3 class="text-2xl font-bold text-slate-800 mb-3 group-hover:text-blue-600 transition-colors">علامات تلوث خزان المياه وكيفية تجنبها</h3>
-                <p class="text-slate-500 text-sm leading-relaxed mb-4">تعرف على المؤشرات المبكرة لتلوث الخزان وأهمية التنظيف الدوري.</p>
-                <div class="flex items-center gap-3"><div class="w-8 h-8 rounded-full bg-slate-200 flex items-center justify-center text-xs">💧</div><span class="text-xs font-bold text-slate-400 italic">فريق الصيانة</span><button><a class="bg-white text-slate-900 border-slate-900 border hover:border-none px-5 py-1 rounded-full font-bold hover:bg-blue-600 hover:text-white transition-all" href="#">إقرأ المزيد</a></button></div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="group bg-white rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 overflow-hidden flex flex-row-reverse h-48 border border-gray-100 cursor-pointer">
+                    <div class="w-1/3 overflow-hidden">
+                        <img src="/assets/images/tank-cleaning.webp" 
+                            alt="تنظيف خزانات" 
+                            class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
+                    </div>
+                    <div class="w-2/3 p-6 flex flex-col justify-center text-right">
+                        <h3 class="text-xl font-bold text-blue-900 mb-2 group-hover:text-blue-600 transition-colors"><a href="/blogs/insulation-and-cleaning-tanks-riyadh/">عزل وتنظيف خزانات بالرياض – شركة كلين تانك بالرياض</a></h3>
+                        <p class="text-blue-500 text-sm leading-relaxed line-clamp-3">
+                            شركة كلين تانك بالرياض، الحل الأمثل لخدمات عزل وتنظيف وتعقيم الخزانات بأحدث التقنيات وأفضل المواد الآمنة. نضمن لك مياه نقية وصحية وحماية كاملة لخزانك من التسربات والبكتيريا. خبرة ودقة في المواعيد بأسعار تنافسية.
+                        </p>
+                    </div>
+                </div>
+                <div class="group bg-white rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 overflow-hidden flex flex-row-reverse h-48 border border-gray-100 cursor-pointer">
+                    <div class="w-1/3 overflow-hidden">
+                        <img src="/assets/images/Swimming-pool-restoration-and-cleaning.webp" 
+                            alt="تنظيم و ترميم المسابح" 
+                            class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
+                    </div>
+                    <div class="w-2/3 p-6 flex flex-col justify-center text-right">
+                        <h3 class="text-xl font-bold text-blue-900 mb-2 group-hover:text-blue-600 transition-colors"><a href="/blogs/swimming-pool-maintenance-and-restoration-riyadh/">
+                            أفضل شركة لصيانة وترميم المسابح بالرياض – شركة كلين تانك بالرياض
+                        </a></h3>
+                        <p class="text-blue-500 text-sm leading-relaxed line-clamp-3">
+                            شركة كلين تانك بالرياض: الخيار الأول لصيانة وترميم المسابح بأحدث التقنيات. نضمن لك معالجة التسربات، وتجديد المظهر، وكفاءة التشغيل بأسعار تنافسية وضمان معتمد.
+                        </p>
+                    </div>
+                </div>
+                <div class="group bg-white rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 overflow-hidden flex flex-row-reverse h-48 border border-gray-100 cursor-pointer">
+                    <div class="w-1/3 overflow-hidden">
+                        <img src="/assets/images/tank-insulation.webp" 
+                            alt="عزل خزانات" 
+                            class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
+                    </div>
+                    <div class="w-2/3 p-6 flex flex-col justify-center text-right">
+                        <h3 class="text-xl font-bold text-blue-900 mb-2 group-hover:text-blue-600 transition-colors"><a href="/blogs/best-tank-insulation-company-riyadh/">
+                            أفضل شركة في عزل الخزانات من الداخل في الرياض – شركة  كلين تانك بالرياض
+                        </a></h3>
+                        <p class="text-blue-500 text-sm leading-relaxed line-clamp-3">
+                            كلين تانك بالرياض: أفضل خدمات عزل خزانات المياه من الداخل بمواد آمنة لمنع التسربات. نضمن لك مياه نقية وحماية كاملة لخزانك بأعلى معايير التعقيم وأقل الأسعار.
+                        </p>
+                    </div>
+                </div>
             </div>
-        </article>
-        <article class="flex flex-col group">
-            <div class="relative h-64 rounded-3xl overflow-hidden mb-6">
-                <img src="https://images.unsplash.com/photo-1571902943202-507ec2618e8f" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" alt="تعقيم خزانات">
-                <div class="absolute top-4 right-4 bg-white/90 backdrop-blur px-3 py-1 rounded-xl text-xs font-bold text-slate-900">تعقيم</div>
-            </div>
-            <div><h3 class="text-2xl font-bold text-slate-800 mb-3 group-hover:text-blue-600 transition-colors">أفضل طرق تعقيم خزانات المياه المنزلية</h3><p class="text-slate-500 text-sm leading-relaxed mb-4">دليل شامل للمواد الآمنة والطرق الفعالة لتعقيم الخزانات.</p><div class="flex items-center gap-3"><div class="w-8 h-8 rounded-full bg-slate-200 flex items-center justify-center text-xs">🧪</div><span class="text-xs font-bold text-slate-400 italic">خبير تعقيم</span><button><a class="bg-white text-slate-900 border-slate-900 border hover:border-none px-5 py-1 rounded-full font-bold hover:bg-blue-600 hover:text-white transition-all" href="#">إقرأ المزيد</a></button></div></div>
-        </article>
-        <article class="flex flex-col group">
-            <div class="relative h-64 rounded-3xl overflow-hidden mb-6">
-                <img src="https://images.unsplash.com/photo-1581091226033-d5c48150dbaa" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" alt="عزل خزانات">
-                <div class="absolute top-4 right-4 bg-white/90 backdrop-blur px-3 py-1 rounded-xl text-xs font-bold text-slate-900">عزل</div>
-            </div>
-            <div><h3 class="text-2xl font-bold text-slate-800 mb-3 group-hover:text-blue-600 transition-colors">أنظمة العزل الحديثة لحماية خزاناتك من التسرب</h3><p class="text-slate-500 text-sm leading-relaxed mb-4">مقارنة بين مواد العزل وأفضل الاختيارات لخزانك.</p><div class="flex items-center gap-3"><div class="w-8 h-8 rounded-full bg-slate-200 flex items-center justify-center text-xs">🔧</div><span class="text-xs font-bold text-slate-400 italic">فريق الدعم الفني</span></div></div>
-        </article>
-    </div>
+        </div>
+    </section>
     <!-- footer -->
     <footer id="contact" class="bg-slate-950 text-white pt-20 pb-10 relative overflow-hidden">
         <div class="absolute bottom-0 right-0 w-64 h-64 bg-cyan-500/5 blur-[100px] rounded-full"></div>
         <div class="container mx-auto px-6 relative z-10">
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
                 <div class="space-y-6">
-                    <div class="flex items-center gap-3"><div class="w-16 h-16 rounded-2xl flex items-center justify-center"><img src="/assets/images/clean tank logo JPG.jpg.webp" class="rounded-2xl" alt="لوجو كلين تانك"></div><div class="flex flex-col"><h3 class="text-2xl font-black tracking-tight">كلين <span class="text-cyan-500">تانك</span></h3><span class="text-[10px] text-cyan-600 font-bold tracking-widest uppercase">لتنظيف الخزانات بالرياض</span></div></div>
+                    <div class="flex items-center gap-3">
+                        <div class="w-16 h-16 rounded-2xl flex items-center justify-center">
+                            <img src="/assets/images/clean tank logo JPG.jpg.webp" class="rounded-2xl" alt="لوجو كلين تانك"></div>
+                            <div class="flex flex-col">
+                                <h3 class="text-2xl font-black tracking-tight">كلين <span class="text-cyan-500">تانك</span></h3>
+                                <span class="text-[10px] text-cyan-600 font-bold tracking-widest uppercase">لتنظيف الخزانات بالرياض</span>
+                            </div>
+                        </div>
                     <p class="text-gray-400 leading-relaxed text-sm">الشركة الرائدة في حلول تنظيف وعزل وصيانة الخزانات والمسابح بالرياض. نلتزم بأعلى معايير الجودة والسلامة لضمان مياه نقية لكل منزل ومنشأة.</p>
-                    <div class="flex gap-4"><a href="#"><i class="fa-brands fa-facebook fa-2xl mt-5 hover:text-cyan-500 transition-all"></i></a><a href="#"><i class="fa-brands fa-x-twitter fa-2xl mt-5 hover:text-cyan-500 transition-all"></i></a><a href="#"><i class="fa-brands fa-instagram fa-2xl mt-5 hover:text-cyan-500 transition-all"></i></a><a href="https://wa.me/966592425757" target="_blank"><i class="fa-brands fa-whatsapp fa-2xl mt-5 hover:text-cyan-500 transition-all"></i></a></div>
+                    <div class="flex gap-4">
+                        <a href="https://www.bing.com/ck/a?!&&p=a7b39951b5e68db774136b61920ebcc47653d49ee95d10cbb2a89cd59aca1632JmltdHM9MTc3NTI2MDgwMA&ptn=3&ver=2&hsh=4&fclid=2ed6ad3a-6dea-6452-0e4a-a2e16c616579&u=a1aHR0cHM6Ly93d3cuZmFjZWJvb2suY29tLw">
+                            <i class="fa-brands fa-facebook fa-2xl mt-5 hover:text-cyan-500 transition-all"></i>
+                        </a>
+                        <a href="https://www.bing.com/ck/a?!&&p=eb846a6435e91d649285890ddc1332ce79fb5d5f12c56ee2ad2c4f73f1dd23f2JmltdHM9MTc3NTI2MDgwMA&ptn=3&ver=2&hsh=4&fclid=2ed6ad3a-6dea-6452-0e4a-a2e16c616579&u=a1aHR0cHM6Ly94LmNvbS8">
+                            <i class="fa-brands fa-x-twitter fa-2xl mt-5 hover:text-cyan-500 transition-all"></i>
+                        </a>
+                        <a href="https://www.bing.com/ck/a?!&&p=6ca621faa94d1be710333b9b0b9ec8bfb48c144728ee3136dedc204645528f99JmltdHM9MTc3NTI2MDgwMA&ptn=3&ver=2&hsh=4&fclid=2ed6ad3a-6dea-6452-0e4a-a2e16c616579&u=a1aHR0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS8">
+                            <i class="fa-brands fa-instagram fa-2xl mt-5 hover:text-cyan-500 transition-all"></i>
+                        </a>
+                        <a href="https://wa.me/966592425757" target="_blank">
+                            <i class="fa-brands fa-whatsapp fa-2xl mt-5 hover:text-cyan-500 transition-all"></i>
+                        </a>
+                    </div>
                 </div>
-                <div><h4 class="text-lg font-bold mb-8 flex items-center gap-2"><span class="w-1.5 h-6 bg-cyan-500 rounded-full"></span>روابط سريعة</h4><ul class="space-y-4 text-gray-400"><li><a href="/index.html#home" class="hover:text-cyan-400 transition-colors flex items-center gap-2"><span>«</span> الرئيسية</a></li><li><a href="/index.html#about" class="hover:text-cyan-400 transition-colors flex items-center gap-2"><span>«</span> من نحن</a></li><li><a href="/index.html#services" class="hover:text-cyan-400 transition-colors flex items-center gap-2"><span>«</span> خدماتنا</a></li><li><a href="/index.html#why-us" class="hover:text-cyan-400 transition-colors flex items-center gap-2"><span>«</span> لماذا تختارنا</a></li><li><a href="/blogs/" class="hover:text-cyan-400 transition-colors flex items-center gap-2"><span>«</span> المدونة</a></li><li><a href="https://wa.me/966592425757" target="_blank" class="hover:text-cyan-400 transition-colors flex items-center gap-2"><span>«</span> تواصل معنا</a></li></ul></div>
-                <div><h4 class="text-lg font-bold mb-8 flex items-center gap-2"><span class="w-1.5 h-6 bg-cyan-500 rounded-full"></span>خدماتنا</h4><ul class="space-y-4 text-gray-400"><li><a href="/water-tank-insulation-in-riyadh/" class="hover:text-cyan-400 transition-colors flex items-center gap-2"><span>•</span>عزل خزانات المياه</a></li><li><a href="/cleaning-and-disinfecting-water-tanks-in-riyadh/" class="hover:text-cyan-400 transition-colors flex items-center gap-2"><span>•</span>تنظيف و تعقيم الخزانات</a></li><li><a href="/water-leak-detection-in-riyadh/" class="hover:text-cyan-400 transition-colors flex items-center gap-2"><span>•</span>كشف تسربات المياه</a></li><li><a href="#" class="hover:text-cyan-400 transition-colors flex items-center gap-2"><span>•</span>تنظيف و صيانة المسابح</a></li><li><a href="#" class="hover:text-cyan-400 transition-colors flex items-center gap-2"><span>•</span>ازالة رواسب الخزانات</a></li><li><a href="#" class="hover:text-cyan-400 transition-colors flex items-center gap-2"><span>•</span>صيانة الخزانات باحترافية</a></li></ul></div>
-                <div><h4 class="text-lg font-bold mb-8 flex items-center gap-2"><span class="w-1.5 h-6 bg-cyan-500 rounded-full"></span>معلومات التواصل</h4><ul class="space-y-6"><li class="flex items-start gap-4"><span class="text-red-500 text-xl"><i class="fa-solid fa-map-pin"></i></span><div class="text-sm"><p class="font-bold text-white mb-1">الموقع الرئيسي</p><p class="text-gray-400 italic">الرياض - المملكة العربية السعودية</p></div></li><li class="flex items-start gap-4"><span class="text-red-700 text-xl"><i class="fa-solid fa-phone"></i></span><div class="text-sm"><p class="font-bold text-white mb-1">اتصل بنا</p><p class="text-gray-400 dir-ltr"><a href="tel:0592425757" class="hover:text-cyan-400 transition-colors">0592425757</a></p></div></li><li class="flex items-start gap-4"><span class="text-white text-xl"><i class="fa-solid fa-clock"></i></span><div class="text-sm"><p class="font-bold text-white mb-1">ساعات العمل</p><p class="text-gray-400">نعمل يومياً على مدار 24 ساعة</p></div></li></ul></div>
+                <div>
+                    <h4 class="text-lg font-bold mb-8 flex items-center gap-2">
+                        <span class="w-1.5 h-6 bg-cyan-500 rounded-full"></span>روابط سريعة</h4>
+                        <ul class="space-y-4 text-gray-400">
+                            <li><a href="/index.html#home" class="hover:text-cyan-400 transition-colors flex items-center gap-2"><span>«</span> الرئيسية</a></li>
+                            <li><a href="/index.html#about" class="hover:text-cyan-400 transition-colors flex items-center gap-2"><span>«</span> من نحن</a></li>
+                            <li><a href="/index.html#services" class="hover:text-cyan-400 transition-colors flex items-center gap-2"><span>«</span> خدماتنا</a></li>
+                            <li><a href="/index.html#why-us" class="hover:text-cyan-400 transition-colors flex items-center gap-2"><span>«</span> لماذا تختارنا</a></li>
+                            <li><a href="/blogs/" class="hover:text-cyan-400 transition-colors flex items-center gap-2"><span>«</span> المدونة</a></li>
+                            <li><a href="https://wa.me/966592425757" target="_blank" class="hover:text-cyan-400 transition-colors flex items-center gap-2"><span>«</span> تواصل معنا</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="text-lg font-bold mb-8 flex items-center gap-2">
+                        <span class="w-1.5 h-6 bg-cyan-500 rounded-full"></span>خدماتنا
+                    </h4>
+                    <ul class="space-y-4 text-gray-400">
+                        <li><a href="/water-tank-insulation-in-riyadh/" class="hover:text-cyan-400 transition-colors flex items-center gap-2"><span>•</span>عزل خزانات المياه</a></li>
+                        <li><a href="/cleaning-and-disinfecting-water-tanks-in-riyadh/" class="hover:text-cyan-400 transition-colors flex items-center gap-2"><span>•</span>تنظيف و تعقيم الخزانات</a></li>
+                        <li><a href="/water-leak-detection-in-riyadh/" class="hover:text-cyan-400 transition-colors flex items-center gap-2"><span>•</span>كشف تسربات المياه</a></li>
+                        <li><a  class="hover:text-cyan-400 transition-colors flex items-center gap-2"><span>•</span>تنظيف و صيانة المسابح</a></li>  <!--href="#"-->
+                        <li><a  class="hover:text-cyan-400 transition-colors flex items-center gap-2"><span>•</span>ازالة رواسب الخزانات</a></li>    <!--href="#"-->
+                        <li><a  class="hover:text-cyan-400 transition-colors flex items-center gap-2"><span>•</span>صيانة الخزانات باحترافية</a></li>    <!--href="#"-->
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-bold mb-8 flex items-center gap-2">
+                        <span class="w-1.5 h-6 bg-cyan-500 rounded-full"></span>معلومات التواصل
+                    </h4>
+                    <ul class="space-y-6">
+                        <li class="flex items-start gap-4">
+                            <span class="text-red-500 text-xl"><i class="fa-solid fa-map-pin"></i></span>
+                            <div class="text-sm">
+                                <p class="font-bold text-white mb-1">الموقع الرئيسي</p>
+                                <p class="text-gray-400 italic">الرياض - المملكة العربية السعودية</p>
+                            </div>
+                        </li>
+                        <li class="flex items-start gap-4">
+                            <span class="text-red-700 text-xl"><i class="fa-solid fa-phone"></i></span>
+                            <div class="text-sm">
+                                <p class="font-bold text-white mb-1">اتصل بنا</p>
+                                <p class="text-gray-400 dir-ltr">
+                                    <a href="tel:0592425757" class="hover:text-cyan-400 transition-colors">0592425757</a>
+                                </p>
+                            </div>
+                        </li>
+                        <li class="flex items-start gap-4">
+                            <span class="text-white text-xl"><i class="fa-solid fa-clock"></i></span>
+                            <div class="text-sm">
+                                <p class="font-bold text-white mb-1">ساعات العمل</p>
+                                <p class="text-gray-400">نعمل يومياً على مدار 24 ساعة</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
             </div>
-            <div class="pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-4 text-center"><p class="text-gray-500 text-xs">© 2026 كلين تانك لتنظيف وصيانة وعزل الخزانات والمسابح - جميع الحقوق محفوظة.</p><div class="flex gap-6 text-xs text-gray-500"><a href="#" class="hover:text-white transition-colors">سياسة الخصوصية</a><a href="#" class="hover:text-white transition-colors">شروط الخدمة</a></div></div>
+            <div class="pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-4 text-center">
+                <p class="text-gray-500 text-xs">© 2026 كلين تانك لتنظيف وصيانة وعزل الخزانات والمسابح - جميع الحقوق محفوظة.</p>
+                <div class="flex gap-6 text-xs text-gray-500">
+                    <a  class="hover:text-white transition-colors">سياسة الخصوصية</a>   <!--href="#"-->
+                    <a  class="hover:text-white transition-colors">شروط الخدمة</a>   <!--href="#"-->
+                </div>
+            </div>
         </div>
     </footer>
 

@@ -1,6 +1,9 @@
 # تشغيل Rewrite
 RewriteEngine On
 
+# Redirect الصفحة القديمة للجديدة
+RewriteRule ^blogs/best-tank-insulation-materials-riyadh/?$ https://cleantank-ksa.com/blogs/best-tank-insulation-company-riyadh/ [R=301,L]
+
 # -----------------------------------
 # 1. تحويل www إلى non-www
 # -----------------------------------
