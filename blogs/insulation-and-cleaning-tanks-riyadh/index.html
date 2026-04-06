@@ -43,7 +43,7 @@
             "name": "كلين تانك",
             "logo": {
             "@type": "ImageObject",
-            "url": "https://cleantank-ksa.com/assets/images/clean tank logo JPG.jpg.webp"
+            "url": "https://cleantank-ksa.com/assets/images/clean-tank-logo-JPG.jpg.webp"
             }
         },
         "mainEntityOfPage": {
@@ -131,8 +131,10 @@
         }
     </script>
     <link href="/assets/css/tank-insulation.css" rel="stylesheet">
-    <link rel="stylesheet" href="/assets/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/all.min.css" media="print" onload="this.media='all'">
+    <noscript><link rel="stylesheet" href="/assets/css/all.min.css"></noscript>
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap" as="style">
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="/style.css" rel="stylesheet">
 </head>
@@ -141,7 +143,7 @@
         <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
             <div class="flex items-center gap-3">
                 <div class="w-16 h-16 rounded-2xl flex items-center justify-center shadow-lg shadow-blue-200">
-                    <img src="/assets/images/clean tank logo JPG.jpg.webp" alt="لوجو كلين تانك" class="  rounded-2xl">
+                    <img src="/assets/images/clean-tank-logo-JPG.jpg.webp" width="64" height="64" loading="eager" alt="لوجو كلين تانك" class="  rounded-2xl">
                 </div>
                 <div class="flex flex-col text-right">
                     <span class="text-xl font-extrabold text-blue-900 leading-none">كلين تانك</span>
@@ -156,9 +158,11 @@
                 <li><a href="/blogs/" target="_self" class="text-blue-900 hover:text-blue-600 transition duration-300">المدونة</a></li>
                 <li><a href="#contact" class="text-blue-900 hover:text-blue-600 transition duration-300">تواصل معنا</a></li>
             </ul>
-            <button class="hidden lg:block bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-full font-bold transition-all transform hover:scale-105 shadow-md"><a href="https://wa.me/966592425757" target="_blank">
-                إحجز خدمتك الآن
-            </a></button>
+            <button class="hidden lg:block bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-full font-bold transition-all transform hover:scale-105 shadow-md" aria-label="تواصل مع شركة كلين تانك">
+                <a href="https://wa.me/966592425757" target="_blank">
+                    إحجز خدمتك الآن
+                </a>
+            </button>
             <div class="lg:hidden text-2xl cursor-pointer text-blue-900 p-2" id="menu-toggle">
                 <i class="fa-solid fa-bars" id="menu-icon"></i>
             </div>
@@ -172,7 +176,9 @@
                 <li><a href="/blogs/" target="_self" class="mobile-link block py-2 hover:text-blue-600 transition-colors">المدونة</a></li>
                 <li><a href="#contact" class="mobile-link block py-2 hover:text-blue-600 transition-colors">تواصل معنا</a></li>
                 <li class="pt-4 border-t border-gray-50">
-                    <button class="w-full bg-blue-600 text-white py-4 rounded-full font-bold shadow-lg"><a href="https://wa.me/966592425757" target="_blank">إحجز خدمتك الآن</a></button>
+                    <button class="w-full bg-blue-600 text-white py-4 rounded-full font-bold shadow-lg" aria-label="تواصل مع شركة كلين تانك">
+                        <a href="https://wa.me/966592425757" target="_blank">إحجز خدمتك الآن</a>
+                    </button>
                 </li>
             </ul>
         </div>
@@ -309,7 +315,9 @@
                         <p class="text-blue-100 text-lg leading-loose mb-6">
                             لا تهمل فحص خزانات المياه بشكل دوري. تأكد دائمًا من سلامة العزل الداخلي كل 3 إلى 5 سنوات، واحرص على تنظيف وتعقيم الخزان كل 6 أشهر للحفاظ على نقاء المياه وصحة أسرتك.
                         </p>
-                        <button class="bg-white text-blue-600 px-8 py-3 rounded-2xl font-bold hover:bg-blue-50 transition-all"><a href="https://wa.me/966592425757" target="_blank">تواصل مع خبراء كلين تانك الآن</a></button>
+                        <button class="bg-white text-blue-600 px-8 py-3 rounded-2xl font-bold hover:bg-blue-50 transition-all" aria-label="تواصل مع شركة كلين تانك">
+                            <a href="https://wa.me/966592425757" target="_blank">تواصل مع خبراء كلين تانك الآن</a>
+                        </button>
                     </div>
                     <div class="absolute -bottom-10 -left-10 w-64 h-64 bg-white/10 blur-3xl rounded-full"></div>
                 </section>
@@ -481,7 +489,9 @@
                     </div>
                     <div class="mt-8 bg-blue-600 rounded-[2.5rem] p-8 text-white flex flex-col md:flex-row items-center justify-between gap-6">
                         <p class="text-lg font-medium text-white">هل تحتاج استشارة لتحديد التكلفة المناسبة؟</p>
-                        <button class="bg-white text-blue-600 px-8 py-3 rounded-2xl font-bold shadow-lg hover:bg-blue-50 transition-colors"><a href="https://wa.me/966592425757" target="_blank">احصل على سعر مجاني</a></button>
+                        <button class="bg-white text-blue-600 px-8 py-3 rounded-2xl font-bold shadow-lg hover:bg-blue-50 transition-colors" aria-label="احصل على سعر مجاني من شركة كلين تانك">
+                            <a href="https://wa.me/966592425757" target="_blank">احصل على سعر مجاني</a>
+                        </button>
                     </div>
                 </section>
                 <!-- Section 8: Maintenance -->
@@ -668,8 +678,8 @@
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 <div class="group bg-white rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 overflow-hidden flex flex-row-reverse h-48 border border-gray-100 cursor-pointer">
                     <div class="w-1/3 overflow-hidden">
-                        <img src="/assets/images/tank-cleaning.webp" 
-                            alt="تنظيف خزانات" 
+                        <img src="/assets/images/tank-cleaning.webp" height="192" loading="lazy"
+                            alt="غسيل وتنظيف خزانات" 
                             class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
                     </div>
                     <div class="w-2/3 p-6 flex flex-col justify-center text-right">
@@ -683,7 +693,7 @@
                 </div>
                 <div class="group bg-white rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 overflow-hidden flex flex-row-reverse h-48 border border-gray-100 cursor-pointer">
                     <div class="w-1/3 overflow-hidden">
-                        <img src="/assets/images/Swimming-pool-restoration-and-cleaning.webp" 
+                        <img src="/assets/images/Swimming-pool-restoration-and-cleaning.webp" height="192" loading="lazy"
                             alt="تنظيم و ترميم المسابح" 
                             class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
                     </div>
@@ -698,8 +708,8 @@
                 </div>
                 <div class="group bg-white rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 overflow-hidden flex flex-row-reverse h-48 border border-gray-100 cursor-pointer">
                     <div class="w-1/3 overflow-hidden">
-                        <img src="/assets/images/tank-insulation.webp" 
-                            alt="عزل خزانات" 
+                        <img src="/assets/images/tank-insulation.webp" height="192" loading="lazy"
+                            alt="عزل خزانات بالرياض" 
                             class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
                     </div>
                     <div class="w-2/3 p-6 flex flex-col justify-center text-right">
@@ -722,7 +732,7 @@
                 <div class="space-y-6">
                     <div class="flex items-center gap-3">
                         <div class="w-16 h-16 rounded-2xl flex items-center justify-center ">
-                            <img src="/assets/images/clean tank logo JPG.jpg.webp" alt="لوجو كلين تانك" class=" rounded-2xl">
+                            <img src="/assets/images/clean-tank-logo-JPG.jpg.webp" width="64" height="64" loading="lazy" alt="لوجو كلين تانك" class=" rounded-2xl">
                         </div>
                         <div class="flex flex-col">
                             <h3 class="text-2xl font-black tracking-tight">كلين <span class="text-cyan-500">تانك</span></h3>
@@ -733,16 +743,16 @@
                         الشركة الرائدة في حلول تنظيف وعزل وصيانة الخزانات بالرياض. نلتزم بأعلى معايير الجودة والسلامة لضمان مياه نقية لكل منزل ومنشأة.
                     </p>
                     <div class="flex gap-4">
-                        <a href="https://www.bing.com/ck/a?!&&p=a7b39951b5e68db774136b61920ebcc47653d49ee95d10cbb2a89cd59aca1632JmltdHM9MTc3NTI2MDgwMA&ptn=3&ver=2&hsh=4&fclid=2ed6ad3a-6dea-6452-0e4a-a2e16c616579&u=a1aHR0cHM6Ly93d3cuZmFjZWJvb2suY29tLw" >
+                        <a href="https://www.bing.com/ck/a?!&&p=a7b39951b5e68db774136b61920ebcc47653d49ee95d10cbb2a89cd59aca1632JmltdHM9MTc3NTI2MDgwMA&ptn=3&ver=2&hsh=4&fclid=2ed6ad3a-6dea-6452-0e4a-a2e16c616579&u=a1aHR0cHM6Ly93d3cuZmFjZWJvb2suY29tLw" aria-label="صفحتنا على فيسبوك">
                             <i class="fa-brands fa-facebook fa-2xl mt-5 hover:text-cyan-500 duration-300 transition-all"></i>
                         </a>
-                        <a href="https://www.bing.com/ck/a?!&&p=eb846a6435e91d649285890ddc1332ce79fb5d5f12c56ee2ad2c4f73f1dd23f2JmltdHM9MTc3NTI2MDgwMA&ptn=3&ver=2&hsh=4&fclid=2ed6ad3a-6dea-6452-0e4a-a2e16c616579&u=a1aHR0cHM6Ly94LmNvbS8" >
+                        <a href="https://www.bing.com/ck/a?!&&p=eb846a6435e91d649285890ddc1332ce79fb5d5f12c56ee2ad2c4f73f1dd23f2JmltdHM9MTc3NTI2MDgwMA&ptn=3&ver=2&hsh=4&fclid=2ed6ad3a-6dea-6452-0e4a-a2e16c616579&u=a1aHR0cHM6Ly94LmNvbS8" aria-label="تابعنا على تويتر">
                             <i class="fa-brands fa-x-twitter fa-2xl mt-5 hover:text-cyan-500 duration-300 transition-all"></i>
                         </a>
-                        <a href="https://www.bing.com/ck/a?!&&p=6ca621faa94d1be710333b9b0b9ec8bfb48c144728ee3136dedc204645528f99JmltdHM9MTc3NTI2MDgwMA&ptn=3&ver=2&hsh=4&fclid=2ed6ad3a-6dea-6452-0e4a-a2e16c616579&u=a1aHR0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS8" >
+                        <a href="https://www.bing.com/ck/a?!&&p=6ca621faa94d1be710333b9b0b9ec8bfb48c144728ee3136dedc204645528f99JmltdHM9MTc3NTI2MDgwMA&ptn=3&ver=2&hsh=4&fclid=2ed6ad3a-6dea-6452-0e4a-a2e16c616579&u=a1aHR0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS8" aria-label="تابعنا على إنستغرام">
                             <i class="fa-brands fa-instagram fa-2xl mt-5 hover:text-cyan-500 duration-300 transition-all"></i>
                         </a>
-                        <a href="https://wa.me/966592425757" target="_blank" >
+                        <a href="https://wa.me/966592425757" target="_blank" aria-label="تواصل معنا عبر واتساب">
                             <i class="fa-brands fa-whatsapp fa-2xl mt-5 hover:text-cyan-500 duration-300 transition-all"></i>
                         </a>
                     </div>
@@ -817,7 +827,7 @@
         </div>
     </footer>
     <script src="/assets/js/tank-insulation.js"></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js" defer></script>
     <script> AOS.init({ duration: 1000, once: false }); </script>
 </body>
 </html>
