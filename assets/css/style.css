@@ -1,5 +1,7 @@
 *{
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 html{
     scroll-behavior: smooth;
@@ -23,4 +25,46 @@ body {
 .animate-bounce-slow {
     animation: bounce-slow 4s infinite ease-in-out;
 }
-/*  */
+/* whole pages */
+/* section{
+    margin-top:40px;
+    margin-bottom:40px;
+} */
+/* sidebar */
+.sidebar{
+    background:white;
+    padding:25px;
+    border-radius:10px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.08);
+    height:fit-content;
+}
+/* تخصيص شكل السكرول بار للسايدبار */
+.custom-scrollbar::-webkit-scrollbar {
+    width: 5px; /* عرض السكرول بار */
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+    background: transparent; /* خلفية المسار */
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+    background: #e2e8f0; /* لون السكرول بار نفسه */
+    border-radius: 10px;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: #3b82f6; /* لون السكرول عند التمرير عليه */
+}
+section ul li a{
+    display:block;
+    padding:8px 10px;
+    border-radius:6px;
+    transition:0.3s;
+    font-weight:500;
+}
+section ul li a:hover{
+    background:#edeeff;
+    color:#2747fd;
+    padding-right:14px;
+}
+/* sidebar card */
+section .shadow{
+    box-shadow:0 10px 25px rgba(0,0,0,0.07);
+}
