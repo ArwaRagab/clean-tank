@@ -24,8 +24,6 @@
     <meta name="author" content="Clean Tank">
     <link rel="alternate" hreflang="ar" href="https://cleantank-ksa.com/">
     <link rel="alternate" hreflang="x-default" href="https://cleantank-ksa.com/">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <script type="application/ld+json">
         {
         "@context": "https://schema.org",
@@ -127,7 +125,10 @@
         href="https://fonts.gstatic.com/s/tajawal/v12/Iurf6YBj_oCad4k1l4qkHrRpiYlJ.woff2" 
         as="font" type="font/woff2" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap" 
-        rel="stylesheet">
+        rel="stylesheet" media="print" onload="this.media='all'">
+    <noscript>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap">
+    </noscript>    
 </head>
 <body class="bg-gray-50">
     <header class="fixed w-full z-50 bg-white backdrop-blur-lg border-b border-gray-100">
@@ -219,7 +220,6 @@
             </span>
         </a>
     </div>
-
     <!-- شرح لبعض الخدمات -->
     <section class="py-20 bg-white">
         <div class="container mx-auto px-6">
@@ -357,7 +357,7 @@
             <div class="flex flex-col lg:flex-row items-center gap-16">
                 <div class="w-full lg:w-1/2 relative">
                     <div class="relative group">
-                        <div class="absolute -inset-4 border-2 border-dashed border-cyan-500/30 rounded-[3rem] animate-[spin_20s_linear_infinite]"></div>
+                        <div class="absolute -inset-4 border-2 border-dashed border-cyan-500/30 rounded-[3rem] animate-[spin_20s_linear_infinite]" style="will-change: transform;"></div>
                         <div class="relative rounded-[2.5rem] overflow-hidden shadow-2xl border-4 border-white/5">
                             <img src="/assets/images/tank-insulation.webp" width="200" height="192" loading="lazy"
                                 alt="فني عزل محترف" 
@@ -1074,13 +1074,14 @@
             </div>
         </div>
     </footer>
-    <script src="/assets/js/main.js" defer></script>
+    <script src="/assets/js/main.js"></script>
     <script src="/assets/js/aos.js"></script>
-    <script>AOS.init({
-        duration: 800,
-        debounceDelay: 50,
-        throttleDelay: 99,
-        once: true
+    <script>
+        AOS.init({
+            duration: 800,
+            debounceDelay: 50,
+            throttleDelay: 99,
+            once: true
         });
     </script>
 </body>

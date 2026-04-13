@@ -8,6 +8,7 @@ html{
 }
 body { 
     font-family: 'Tajawal', sans-serif; 
+    font-display: swap;
 } 
 /* landing */
 .parallax-hero::before {
